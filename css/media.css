@@ -1,0 +1,311 @@
+@media (max-width: 768px) {
+{
+
+    max-width: 768px;
+
+}
+    .burger {
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        left: 0;
+        top: 0;
+        max-width: 400px;
+        width: 80%;
+        height: 100vh;
+        z-index: 100;
+        background-color: #fff;
+        box-shadow: 5px 0 15px -5px rgba(0,0,0,0.8);
+        overflow-y: auto;
+        transform: translateX(-100vh);
+        overflow-x:hidden;
+    }
+    .menu.open{
+        transform: translateX(0);
+    }
+    .overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .overlay.open{
+        opacity: 1;
+        visibility: visible;
+    }
+    .tecnology{
+        flex-wrap: wrap-reverse;
+        padding-top: 10px;
+    }
+    .images{
+        margin: auto;
+        border-radius: 100%;
+        max-width: 243px;
+        max-height: 243px;
+    }
+    .images img{
+        box-shadow: -5px 9px 0px 0px #EDF7FA;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+    .tecnology-title{
+        max-width: 550px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .text p{
+        font-size: 16px;
+        line-height: 23px;
+        text-shadow: 0px 0px 0px #21243D;
+        text-align: center;
+        margin: auto;
+        padding: 0 80px;
+
+    }
+    .savebutton{
+        margin: 30px auto;
+    }
+    .container{
+        margin-bottom: 28px;
+    }
+    .posters{
+        display: inherit;
+        max-width: 500px;
+    }
+    .post {
+        max-width: 500px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+    .posts{
+        height: 683px;
+    }
+    .future{
+        display: inherit;
+    }
+    footer{
+        display: flex;
+        max-width: 600px;
+        margin: 0 auto;
+        height: 182px;
+    }
+    header{
+        max-width: 650px;
+        padding-right: 50px;
+    }
+    .recent{
+        text-align: center;
+    }
+    .post h3{
+        font-size: 22px;
+        max-width: 327px;
+        padding-left: 19px;
+    }
+    .card__date{
+        font-size: 16px;
+        padding-left: 19px;
+    }
+    .amets{
+        padding-left: 19px;
+        padding-bottom: 20px;
+    }
+    .view{
+        height: 10px;
+        line-height: 0px;
+    }
+    .view a{
+        color: #EDF7FA;
+    }
+    .title p{
+        font-size: 18px;
+        margin: auto;
+    }
+    .first_column img{
+        width:380px;
+        height:230px;
+        margin: auto;
+    }
+    .first_column{
+        margin-bottom: 65px;
+    }
+    .second_column h3{
+        font-size: 24px;
+    }
+    .second_column{
+        max-width: 350px;
+        margin: auto;
+    }
+    .amets2{
+        padding-bottom: 45px;
+    }
+    .text{
+        margin: auto;
+    }
+    .menublock{
+        flex-direction: column;
+    }
+    .menublock li{
+        height: 40px;
+        border-bottom: 1px solid black;
+    }
+    .menublock li{
+        margin-right: 0px;
+        padding: 20px 0px 20px 20px;
+    }
+    .menublock li:first-child{
+        padding-top: 60px;
+    }
+    .menublock li:last-child{
+        margin-right: 0px;
+    }
+    .menublock li a{
+        font-size: 25px;
+    }
+    .menu.open{
+        background-color: cornsilk;
+    }
+    body.lock{
+        overflow: hidden;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    {
+        max-width: 480px;
+    }
+   .tecnology{
+       flex-wrap: wrap-reverse;
+       padding-top: 10px;
+    }
+    .images{
+        margin: auto;
+        border-radius: 100%;
+        max-width: 171px;
+        max-height: 171px;
+    }
+    .images img{
+        box-shadow: -5px 9px 0px 0px #EDF7FA;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+    .tecnology-title{
+        max-width: 350px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .text p{
+        font-size: 16px;
+        line-height: 23px;
+        text-shadow: 0px 0px 0px #21243D;
+        text-align: center;
+        margin: auto;
+        padding: 0 80px;
+
+    }
+    .savebutton{
+        margin: 30px auto;
+    }
+    .container{
+        margin-bottom: 28px;
+    }
+    .posters{
+        display: inherit;
+    }
+    .post {
+        max-width: 450px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+    .posts{
+        height: 683px;
+    }
+    .future{
+        display: inherit;
+    }
+    footer{
+        display: flex;
+        max-width: 400px;
+        margin: 0 auto;
+        height: 182px;
+    }
+    header{
+        max-width: 450px;
+    }
+    .recent{
+        text-align: center;
+    }
+    .post h3{
+        font-size: 22px;
+        max-width: 327px;
+        padding-left: 19px;
+    }
+    .card__date{
+        font-size: 16px;
+        padding-left: 19px;
+    }
+    .amets{
+        padding-left: 19px;
+        padding-bottom: 20px;
+    }
+    .view{
+        height: 10px;
+        line-height: 0px;
+    }
+    .view a{
+        color: #EDF7FA;
+    }
+    .title p{
+        font-size: 18px;
+        margin: auto;
+    }
+    .first_column img{
+        width:339px;
+        height:230px;
+        margin: auto;
+    }
+    .first_column{
+        margin-bottom: 65px;
+    }
+    .second_column h3{
+        font-size: 24px;
+    }
+    .second_column{
+        max-width: 350px;
+        margin: auto;
+    }
+    .amets2{
+        padding-bottom: 45px;
+    }
+
+
+}
+@media (min-width: 768px) {
+    .menu_list:hover .submenulist{
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s;
+    }
+    .submenulist>li:hover .sub-sub-menu_list{
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.1s;
+    }
+
+}

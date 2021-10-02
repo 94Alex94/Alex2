@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    max-width: 856px;
+    margin: 0 auto;
+    height: 182px;
+}
+#socials {
+    margin: auto;
+    text-align: center;
+}
+#socials a {
+    margin: 0 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 2;
+}
+.copyrating{
+    margin-top: 29px;
+    font-size: 14px;
+}
